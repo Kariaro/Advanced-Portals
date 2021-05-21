@@ -150,7 +150,7 @@ public class AdvancedPortalsCore {
 
         // TODO remove once annotations are done
         this.portalCommand.registerSubCommand("version", new VersionSubCommand());
-        this.portalCommand.registerSubCommand("transupdate", new TransUpdateSubCommand());
+        this.portalCommand.registerSubCommand("langupdate", new LangUpdateSubCommand());
         this.portalCommand.registerSubCommand("reload", new ReloadSubCommand());
         this.portalCommand.registerSubCommand("selector", new SelectorSubCommand(), "wand");
         this.portalCommand.registerSubCommand("portalblock", new PortalBlockSubCommand());

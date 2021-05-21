@@ -8,12 +8,12 @@ import com.sekwah.advancedportals.core.connector.container.CommandSenderContaine
 
 import java.util.List;
 
-public class TransUpdateSubCommand implements SubCommand {
+public class LangUpdateSubCommand implements SubCommand {
 
     @Inject
     private AdvancedPortalsCore portalsCore;
 
-    public TransUpdateSubCommand() {
+    public LangUpdateSubCommand() {
     }
 
     @Override
